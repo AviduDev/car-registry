@@ -6,7 +6,13 @@ export default function Hero() {
     <div className="flex flex-col items-center content-center bg-sky-100 p-5 rounded-2xl text-sky-900">
       <h1 className="mt-10 mb-5">find any car at any time -with ease!</h1>
       <div className="relative w-full h-64 mb-5">
-        <Image src="/hero-image.jpg" alt="" fill objectFit="cover" className="rounded-lg" />
+        <Image
+          src="/hero-image.jpg"
+          alt=""
+          fill
+          objectFit="cover"
+          className="rounded-lg"
+        />
       </div>
 
       <p className="text-center">
@@ -16,8 +22,9 @@ export default function Hero() {
       </p>
 
       <div className="flex flex-row mt-5">
-        <PrimaryLink title="See Cars" />
-        <SecondaryLink title="Reach Us" />
+        {/* u can add custom styles in customStyles props */}
+        <PrimaryLink title="See Cars" customStyles="" />
+        <SecondaryLink title="Reach Us" customStyles="" />
       </div>
     </div>
   );
