@@ -3,10 +3,19 @@
 @tailwind utilities;
 @layer base {
     h1 {
-        @apply text-3xl font-black uppercase text-center;
+        @apply text-4xl font-black uppercase text-center;
+    }
+
+    p {
+        @apply max-w-sm;
     }
 
     main {
         @apply p-5
     }
+}
+
+::selection {
+    background-color: #0e557f;
+    color: #e0f2fe;
 }
