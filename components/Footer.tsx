@@ -1,7 +1,14 @@
-let date = new Date().getFullYear();
+// let date = new Date().getFullYear();
+// const year = document.querySelector("#yaer")?.innerHTML
 
-export default function Footer() {
-    return(
-        <footer>CarHut©{date}</footer>
-    )
-}
+// document.getElementById("year")?.innerHTML = new Date().getFullYear();
+
+const Footer = () => {
+  return (
+    <footer>
+      <span id="year">2023</span>
+    </footer>
+  );
+};
+
+export default Footer;

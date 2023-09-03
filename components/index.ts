@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import Header from "./Header";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import PrimaryLink from "./PrimaryLink";
@@ -10,7 +9,6 @@ export {
     Hero,
     PrimaryLink,
     SecondaryLink,
-    Header,
     Footer,
     Navbar
 }
