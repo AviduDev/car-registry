@@ -12,10 +12,11 @@ export default function Hero() {
           fill
           objectFit="cover"
           className="rounded-lg"
+          priority
         />
       </div>
 
-      <p className="text-center">
+      <p className="text-start">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi aut,
         tempora dolores ratione facere magni, suscipit culpa a aperiam
         accusantium architecto eveniet vitae.
@@ -23,8 +24,8 @@ export default function Hero() {
 
       <div className="flex flex-row mt-5">
         {/* u can add custom styles in customStyles props */}
-        <PrimaryLink title="See Cars" customStyles="" />
-        <SecondaryLink title="Reach Us" customStyles="" />
+        <PrimaryLink title="See Cars" customStyles="" href="#" />
+        <SecondaryLink title="Reach Us" customStyles="" href="#" />
       </div>
     </div>
   );

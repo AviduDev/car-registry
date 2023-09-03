@@ -5,12 +5,13 @@ import Link from "next/link";
 export default function SecondaryLink({
   title,
   customStyles,
+  href
 }: CustomLinkProps) {
   return (
     <Link
-      href="#"
+      href={href}
       //   here we passes custom styles from the root
-      className={`text-sky-900 m-1 p-2 hover:text-sky-950 ease-in-out transition-colors ${customStyles}`}
+      className={`text-sky-900 m-1 p-2 hover:text-sky-950 ease-in-out transition-colors underline ${customStyles}`}
     >
       {/* button title pops */}
       {title}
